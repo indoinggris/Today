@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informasi Game Terkini 2025</title>
+
+<style>
+    :root {
+        --kuning-muda: #FFF9C4;
+        --kuning-utama: #FDD835;
+        --kuning-tua: #FBC02D;
+        --orange-tua: #E65100;
+        --teks: #333333;
+        --putih: #ffffff;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #FFFDE7, #FFF9C4);
+        color: var(--teks);
+        line-height: 1.7;
+    }
+
+    header {
+        background: linear-gradient(135deg, #FFEB3B, #FDD835);
+        padding: 25px 15px;
+        text-align: center;
+        color: #000;
+        font-weight: 800;
+        font-size: 26px;
+        border-bottom: 4px solid var(--kuning-tua);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    header span.badge {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.7);
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .container {
+        max-width: 980px;
+        margin: 20px auto 40px auto;
+        padding: 0 15px;
+    }
+
+    .intro {
+        background: rgba(255, 253, 231, 0.95);
+        border-left: 5px solid var(--kuning-utama);
+        padding: 15px 18px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(251, 192, 45, 0.2);
+    }
+
+    .intro h1 {
+        font-size: 22px;
+        margin-bottom: 8px;
+        color: var(--orange-tua);
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .tag-list {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .tag {
+        display: inline-block;
+        background: var(--kuning-utama);
+        color: #000;
+        padding: 3px 8px;
+        border-radius: 999px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    h2.section-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: var(--orange-tua);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    h2.section-title::before {
+        content: "";
+        width: 6px;
+        height: 24px;
+        border-radius: 4px;
+        background: var(--kuning-utama);
+    }
+
+    .card {
+        background: rgba(255, 238, 88, 0.95);
+        padding: 16px 18px;
+        border-radius: 14px;
+        border: 2px solid var(--kuning-utama);
+        margin-bottom: 16px;
+        box-shadow: 0 6px 14px rgba(249, 187, 0, 0.3);
+        transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card::after {
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.35);
+        right: -20px;
+        top: -20px;
+        filter: blur(2px);
+        pointer-events: none;
+    }
+
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 18px rgba(249, 187, 0, 0.5);
+        background: #FFEE58;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 6px;
+        color: #5D4037;
+    }
+
+    .card-meta {
+        font-size: 12px;
+        opacity: 0.8;
+        margin-bottom: 8px;
+    }
+
+    .card p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .label-update {
+        display: inline-block;
+        font-size: 11px;
+        padding: 3px 7px;
+        background: #FFCA28;
+        border-radius: 6px;
+        margin-left: 6px;
+        font-weight: 600;
+    }
+
+    .highlight {
+        background: rgba(255, 255, 255, 0.6);
+        padding: 3px 5px;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+
+    .grid {
+        display: grid;
+        gap: 16px;
+    }
+
+    .tips-box {
+        margin-top: 25px;
+        background: #FFF8E1;
+        border-radius: 14px;
+        padding: 15px 18px;
+        border: 1px dashed var(--kuning-tua);
+        box-shadow: 0 3px 9px rgba(251, 192, 45, 0.25);
+    }
+
+    .tips-box h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+        color: var(--orange-tua);
+    }
+
+    .tips-box ul {
+        padding-left: 18px;
+        font-size: 14px;
+    }
+
+    .tips-box li {
+        margin-bottom: 4px;
+    }
+
+    .btn-row {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn {
+        border: none;
+        cursor: pointer;
+        padding: 9px 16px;
+        border-radius: 999px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        background: var(--orange-tua);
+        color: var(--putih);
+        box-shadow: 0 4px 10px rgba(230, 81, 0, 0.4);
+        transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .btn.secondary {
+        background: var(--kuning-utama);
+        color: #000;
+        box-shadow: 0 4px 10px rgba(251, 192, 45, 0.5);
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(230, 81, 0, 0.6);
+    }
+
+    .btn.secondary:hover {
+        box-shadow: 0 7px 14px rgba(251, 192, 45, 0.7);
+    }
+
+    footer {
+        background: #FDD835;
+        padding: 16px 10px;
+        text-align: center;
+        border-top: 4px solid var(--kuning-tua);
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    footer span {
+        display: block;
+        font-size: 11px;
+        margin-top: 4px;
+        opacity: 0.8;
+    }
+
+    @media (min-width: 720px) {
+        .grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @media (max-width: 480px) {
+        header {
+            font-size: 20px;
+            padding: 18px 10px;
+        }
+        .intro h1 {
+            font-size: 18px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    Informasi Game Terkini 2025
+    <span class="badge">Update & Tren Terbaru Dunia Game</span>
+</header>
+
+<div class="container">
+
+    <section class="intro">
+        <h1>Ringkasan Singkat Dunia Game Saat Ini</h1>
+        <p>
+            Tahun 2025 jadi salah satu tahun paling sibuk di dunia game. Mulai dari 
+            <span class="highlight">game mobile kompetitif</span>, rilis judul AAA baru, sampai teknologi 
+            <span class="highlight">cloud gaming</span> dan AI yang makin canggih. 
+            Artikel ini merangkum beberapa informasi penting yang bisa kamu jadikan bahan ngobrol,
+            bahan konten, atau sekadar referensi sebelum download game baru.
+        </p>
+        <div class="tag-list">
+            <span class="tag">#GameTerkini</span>
+            <span class="tag">#Update2025</span>
+            <span class="tag">#MobileGaming</span>
+            <span class="tag">#PCdanConsole</span>
+        </div>
+    </section>
+
+    <!-- Bagian 1 -->
+    <h2 class="section-title">🔥 Game Mobile Baru yang Lagi Hype <span class="label-update">Trending</span></h2>
+    <div class="grid">
+        <article class="card">
+            <div class="card-title">Judul Baru dengan Mode Ranked Lebih Adil</div>
+            <div class="card-meta">Fokus: kompetitif santai | Platform: Android & iOS</div>
+            <p>
+                Banyak game mobile baru mengadopsi sistem matchmaking yang lebih pintar, 
+                menggabungkan data skill, win rate, dan gaya bermain. Tujuannya adalah 
+                mengurangi pertandingan yang terasa “nggak seimbang” sehingga pemain baru 
+                masih bisa menikmati game tanpa cepat frustasi. Selain itu, developer juga 
+                mulai rajin menghadirkan event musiman yang memberi hadiah kosmetik dan 
+                item gratis tanpa paywall berlebihan.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-title">Grafik Semakin Halus, Tapi Tetap Ramah HP Kentang</div>
+            <div class="card-meta">Fokus: optimasi & performa</div>
+            <p>
+                Engine grafis generasi baru mampu menampilkan efek cahaya, bayangan, dan animasi lebih halus 
+                tanpa membebani perangkat secara berlebihan. Banyak game kini menawarkan 
+                pengaturan grafik bertingkat, dari mode hemat baterai hingga mode kualitas tinggi 
+                untuk HP flagship. Jadi, bahkan pengguna HP menengah masih bisa menikmati tampilan visual 
+                yang nyaman di mata tanpa frame drop ekstrem.
+            </p>
+        </article>
+    </div>
+
+    <!-- Bagian 2 -->
+    <h2 class="section-title">⚡ Update Besar di Game Multiplayer Populer</h2>
+    <div class="grid">
+        <article class="card">
+            <div class="card-title">Meta Baru: Role dan Hero yang Kembali Naik Daun</div>
+            <div class="card-meta">Kategori: MOBA & Battle Royale</div>
+            <p>
+                Patch besar yang dirilis awal tahun ini mengubah keseimbangan role dan karakter. 
+                Beberapa hero yang sebelumnya jarang dipakai sekarang justru jadi andalan setelah 
+                mendapat buff kecil tetapi signifikan. Hal ini bikin gameplay terasa lebih segar, 
+                karena pemain perlu menyesuaikan taktik, item build, dan kombinasi tim agar tetap 
+                kompetitif di mode ranked.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-title">Event Kolaborasi dengan Brand & Serial Populer</div>
+            <div class="card-meta">Kategori: Event musiman & limited-time</div>
+            <p>
+                Kolaborasi lintas dunia hiburan makin sering dilakukan. Mulai dari skin bertema anime, 
+                karakter tamu dari film terkenal, sampai map event khusus yang hanya muncul beberapa minggu. 
+                Selain menambah variasi, banyak event ini juga menghadirkan misi harian dan mingguan 
+                yang memberikan hadiah lumayan bagi pemain aktif, bahkan tanpa harus top up besar-besaran.
+            </p>
+        </article>
+    </div>
+
+    <!-- Bagian 3 -->
+    <h2 class="section-title">🎮 Teknologi Gaming 2025: AI, Cloud GPU, dan Arah Baru</h2>
+    <div class="grid">
+        <article class="card">
+            <div class="card-title">AI Sebagai Asisten, Bukan Sekadar Bot Lawan</div>
+            <div class="card-meta">Fokus: pengalaman pemain & personalisasi</div>
+            <p>
+                Di banyak game terbaru, AI tidak lagi hanya berperan sebagai musuh atau NPC biasa. 
+                Sekarang AI dipakai untuk membaca pola kebiasaan pemain, lalu memberikan rekomendasi 
+                mode, tingkat kesulitan, hingga build karakter yang lebih cocok. Beberapa game single-player 
+                bahkan menawarkan AI companion yang bisa beradaptasi dengan gaya bermain kamu, sehingga 
+                pengalaman bermain terasa lebih hidup dan personal.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-title">Cloud Gaming & GPU Jarak Jauh</div>
+            <div class="card-meta">Fokus: akses game berat tanpa PC high-end</div>
+            <p>
+                Layanan cloud gaming semakin matang. Pemain bisa menjalankan game AAA berat melalui 
+                server GPU jarak jauh, lalu menampilkan hasilnya di laptop, tablet, bahkan HP. 
+                Selama koneksi internet stabil, pengalaman bermain bisa mendekati kualitas 
+                PC gaming mahal. Ini membuka peluang bagi lebih banyak pemain yang ingin mencoba 
+                judul besar tanpa harus upgrade perangkat terlebih dahulu.
+            </p>
+        </article>
+    </div>
+
+    <!-- Bagian 4 -->
+    <h2 class="section-title">🌟 Prediksi Tren Game di Tahun Ini</h2>
+    <div class="grid">
+        <article class="card">
+            <div class="card-title">Open-World, Sci-Fi, dan Strategi Adaptif</div>
+            <div class="card-meta">Fokus: genre & desain dunia</div>
+            <p>
+                Genre open-world diprediksi tetap kuat, terutama yang menggabungkan elemen sci-fi 
+                dan eksplorasi bebas. Pemain semakin menyukai kebebasan menentukan alur cerita mereka 
+                sendiri, memilih quest, sekaligus menikmati detail lingkungan. Elemen strategi adaptif 
+                juga mulai banyak dipakai, di mana musuh dan tantangan akan menyesuaikan dengan cara 
+                kamu menuntaskan misi sebelumnya.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-title">Game Sebagai Ruang Sosial Digital</div>
+            <div class="card-meta">Fokus: komunitas & interaksi pemain</div>
+            <p>
+                Game kini bukan cuma tempat melepas penat, tapi juga ruang sosial alternatif. 
+                Banyak judul menyediakan fitur hangout, voice chat yang lebih jernih, 
+                hingga mini-game bersama di lobi. Komunitas di dalam game menjadi faktor penting, 
+                karena pemain cenderung betah jika mereka menemukan teman satu hobi, 
+                squad tetap, atau guild yang aktif dan ramah.
+            </p>
+        </article>
+    </div>
+
+    <!-- Tips & Aksi -->
+    <div class="tips-box">
+        <h3>Tips Singkat Sebelum Ikut Hype Game Baru</h3>
+        <ul>
+            <li>Cek spesifikasi minimum dan rekomendasi agar tidak kaget di tengah permainan.</li>
+            <li>Baca review pemain lain, bukan hanya trailer atau iklan resminya.</li>
+            <li>Atur batas waktu dan batas pengeluaran agar hobi tetap sehat dan menyenangkan.</li>
+            <li>Gabung komunitas atau grup diskusi untuk dapat info update dan trik terbaru.</li>
+        </ul>
+
+        <div class="btn-row">
+            <button class="btn">Lihat Daftar Game Populer</button>
+            <button class="btn secondary">Gabung Komunitas Gamer</button>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Portal Informasi Game Terkini
+    <span>Konten ini dapat kamu kembangkan lagi untuk blog, landing page, atau artikel review game.</span>
+</footer>
+
+</body>
+</html>
